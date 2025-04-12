@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="app-title">Contact Manager</h1>
+
+      <div class="app-layout">
+        <!-- Contacts List Panel -->
+        <div class="contacts-panel" id="contacts-panel">
+          <div class="panel-header">
+            <h2>Contacts</h2>
+            <button class="btn btn-primary" id="add-contact-btn">
+              <span class="icon">+</span> Add Contact
+            </button>
+          </div>
+
+          <div id="contacts-container">
+            <!-- Contacts will be rendered here -->
+          </div>
+        </div>
+
+        <!-- Details Panel -->
+        <div class="details-panel" id="details-panel">
+          <!-- Contact details or forms will be rendered here -->
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
